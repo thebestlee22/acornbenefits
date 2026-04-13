@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | Acorn Benefits, LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        forest: {
+                            900: '#1a2f1a',
+                            800: '#2d4a3e',
+                            700: '#3d5c4e',
+                            600: '#4a6b5b',
+                            500: '#5a7d6a',
+                            400: '#7a9a89',
+                            300: '#9bb3a6',
+                            200: '#b8c9bf',
+                            100: '#d5e0d8',
+                            50: '#f2f5f3',
+                        },
+                        warm: {
+                            900: '#2c241b',
+                            800: '#4a3f32',
+                            700: '#6b5b4f',
+                            600: '#8b7355',
+                            500: '#a89276',
+                            400: '#c4b59a',
+                            300: '#d4c8b8',
+                            200: '#e5ddd2',
+                            100: '#f2ede6',
+                            50: '#faf8f5',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-warm-800 bg-warm-50 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-forest-800 border-b border-forest-700 z-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="https://static.showit.co/file/GdgEROq_fU7X04XbzQQeHw/158319/acorn_benifits_photo-11.png" alt="Acorn Benefits, LLC" class="h-12 w-auto">
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="services.html" class="text-white/90 hover:text-white font-medium transition-colors">Services</a>
+                    <a href="about.html" class="text-white/90 hover:text-white font-medium transition-colors">About</a>
+                    <a href="case-studies.html" class="text-white/90 hover:text-white font-medium transition-colors">Case Studies</a>
+                    <a href="resources.html" class="text-white font-medium">Resources</a>
+                    <a href="contact.html" class="px-6 py-3 bg-white text-forest-900 font-medium rounded-sm hover:bg-forest-100 transition-colors">
+                        Request a Review
+                    </a>
+                </div>
+
+                <button class="md:hidden p-2 text-white" id="mobile-menu-btn">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="hidden md:hidden bg-forest-800 border-t border-forest-700" id="mobile-menu">
+            <div class="px-6 py-4 space-y-3">
+                <a href="services.html" class="block py-2 text-white/90 hover:text-white">Services</a>
+                <a href="about.html" class="block py-2 text-white/90 hover:text-white">About</a>
+                <a href="case-studies.html" class="block py-2 text-white/90 hover:text-white">Case Studies</a>
+                <a href="resources.html" class="block py-2 text-white font-semibold">Resources</a>
+                <a href="contact.html" class="block py-2 text-white font-semibold">Request a Review</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-32 pb-20 bg-warm-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">Knowledge Center</span>
+                <h1 class="font-serif text-5xl lg:text-6xl font-semibold text-forest-900 mb-6 leading-tight">
+                    Resources & Insights
+                </h1>
+                <p class="text-xl text-warm-700 leading-relaxed">
+                    Practical guides, industry insights, and tools to help you navigate the complex world of employee benefits with confidence.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Guides -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">Downloadable Guides</span>
+                <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900">Essential Resources</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group bg-warm-50 p-8 rounded-sm hover:shadow-lg transition-all border border-warm-200 hover:border-forest-200">
+                    <div class="w-12 h-12 bg-forest-100 rounded-sm flex items-center justify-center mb-6 group-hover:bg-forest-200 transition-colors">
+                        <i data-lucide="file-text" class="w-6 h-6 text-forest-800"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">2024 Benefits Trends Report</h3>
+                    <p class="text-warm-700 leading-relaxed mb-6">
+                        Comprehensive analysis of emerging trends in employee benefits, including healthcare costs, voluntary benefits adoption, and wellness program evolution.
+                    </p>
+                    <a href="#" class="inline-flex items-center text-forest-800 font-medium hover:text-forest-600 transition-colors">
+                        Download PDF
+                        <i data-lucide="download" class="ml-2 w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <div class="group bg-warm-50 p-8 rounded-sm hover:shadow-lg transition-all border border-warm-200 hover:border-forest-200">
+                    <div class="w-12 h-12 bg-forest-100 rounded-sm flex items-center justify-center mb-6 group-hover:bg-forest-200 transition-colors">
+                        <i data-lucide="book-open" class="w-6 h-6 text-forest-800"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Self-Funding Transition Guide</h3>
+                    <p class="text-warm-700 leading-relaxed mb-6">
+                        A step-by-step roadmap for organizations considering the move from fully-insured to self-funded health plans. Risk assessment, timeline, and best practices included.
+                    </p>
+                    <a href="#" class="inline-flex items-center text-forest-800 font-medium hover:text-forest-600 transition-colors">
+                        Download PDF
+                        <i data-lucide="download" class="ml-2 w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <div class="group bg-warm-50 p-8 rounded-sm hover:shadow-lg transition-all border border-warm-200 hover:border-forest-200">
+                    <div class="w-12 h-12 bg-forest-100 rounded-sm flex items-center justify-center mb-6 group-hover:bg-forest-200 transition-colors">
+                        <i data-lucide="clipboard-check" class="w-6 h-6 text-forest-800"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Open Enrollment Toolkit</h3>
+                    <p class="text-warm-700 leading-relaxed mb-6">
+                        Templates, checklists, and communication strategies to maximize employee engagement and understanding during your next open enrollment period.
+                    </p>
+                    <a href="#" class="inline-flex items-center text-forest-800 font-medium hover:text-forest-600 transition-colors">
+                        Download PDF
+                        <i data-lucide="download" class="ml-2 w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Articles -->
+    <section class="py-24 bg-warm-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">Insights</span>
+                <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900">Latest Articles</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <article class="bg-white rounded-sm shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src="http://static.photos/finance/640x360/101" alt="Healthcare costs" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-forest-600 text-sm font-medium uppercase tracking-wider">Strategy</span>
+                        <h3 class="font-serif text-xl font-semibold text-forest-900 mt-2 mb-3">Navigating the 2024 Healthcare Cost Landscape</h3>
+                        <p class="text-warm-700 text-sm leading-relaxed mb-4">
+                            With medical trend rates projected to rise 6-8%, organizations need proactive strategies to manage costs without shifting burden to employees.
+                        </p>
+                        <a href="#" class="inline-flex items-center text-forest-800 font-medium text-sm hover:text-forest-600 transition-colors">
+                            Read More
+                            <i data-lucide="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-sm shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src="http://static.photos/technology/640x360/102" alt="Technology in benefits" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-forest-600 text-sm font-medium uppercase tracking-wider">Technology</span>
+                        <h3 class="font-serif text-xl font-semibold text-forest-900 mt-2 mb-3">The Rise of Benefits Administration Platforms</h3>
+                        <p class="text-warm-700 text-sm leading-relaxed mb-4">
+                            How modern HR technology is streamlining enrollment, improving data accuracy, and enhancing the employee experience.
+                        </p>
+                        <a href="#" class="inline-flex items-center text-forest-800 font-medium text-sm hover:text-forest-600 transition-colors">
+                            Read More
+                            <i data-lucide="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-sm shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src="http://static.photos/people/640x360/103" alt="Employee wellness" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-forest-600 text-sm font-medium uppercase tracking-wider">Wellness</span>
+                        <h3 class="font-serif text-xl font-semibold text-forest-900 mt-2 mb-3">Building Mental Health Benefits That Actually Work</h3>
+                        <p class="text-warm-700 text-sm leading-relaxed mb-4">
+                            Moving beyond EAP checkboxes to comprehensive mental health strategies that support employee wellbeing and productivity.
+                        </p>
+                        <a href="#" class="inline-flex items-center text-forest-800 font-medium text-sm hover:text-forest-600 transition-colors">
+                            Read More
+                            <i data-lucide="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-sm shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src="http://static.photos/legal/640x360/104" alt="Compliance" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-forest-600 text-sm font-medium uppercase tracking-wider">Compliance</span>
+                        <h3 class="font-serif text-xl font-semibold text-forest-900 mt-2 mb-3">ACA Reporting Requirements: What Employers Need to Know</h3>
+                        <p class="text-warm-700 text-sm leading-relaxed mb-4">
+                            A practical guide to 1094-C and 1095-C reporting, including common mistakes and how to avoid penalties.
+                        </p>
+                        <a href="#" class="inline-flex items-center text-forest-800 font-medium text-sm hover:text-forest-600 transition-colors">
+                            Read More
+                            <i data-lucide="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-sm shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src="http://static.photos/workspace/640x360/105" alt="Remote work benefits" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-forest-600 text-sm font-medium uppercase tracking-wider">Trends</span>
+                        <h3 class="font-serif text-xl font-semibold text-forest-900 mt-2 mb-3">Benefits for a Hybrid Workforce</h3>
+                        <p class="text-warm-700 text-sm leading-relaxed mb-4">
+                            How to structure benefits programs that serve both in-office and remote employees equitably in the new world of work.
+                        </p>
+                        <a href="#" class="inline-flex items-center text-forest-800 font-medium text-sm hover:text-forest-600 transition-colors">
+                            Read More
+                            <i data-lucide="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-sm shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                    <img src="http://static.photos/finance/640x360/106" alt="Retirement planning" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-forest-600 text-sm font-medium uppercase tracking-wider">Retirement</span>
+                        <h3 class="font-serif text-xl font-semibold text-forest-900 mt-2 mb-3">Maximizing 401(k) Engagement Through Design</h3>
+                        <p class="text-warm-700 text-sm leading-relaxed mb-4">
+                            Plan features like auto-enrollment, escalation, and matching structures that drive participation and retirement readiness.
+                        </p>
+                        <a href="#" class="inline-flex items-center text-forest-800 font-medium text-sm hover:text-forest-600 transition-colors">
+                            Read More
+                            <i data-lucide="arrow-right" class="ml-1 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-forest-800 text-forest-800 font-medium rounded-sm hover:bg-forest-800 hover:text-white transition-colors">
+                    View All Articles
+                    <i data-lucide="arrow-right" class="ml-2 w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">Common Questions</span>
+                <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900">Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="space-y-4">
+                <details class="group bg-warm-50 rounded-sm border border-warm-200 open:ring-1 open:ring-forest-200 open:bg-white">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                        <h3 class="font-serif text-lg font-semibold text-forest-900">How often should we review our benefits strategy?</h3>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-forest-600 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-warm-700 leading-relaxed">
+                        We recommend quarterly reviews of utilization data and claims experience, with a comprehensive strategy assessment annually before renewal. However, significant business changes—mergers, acquisitions, workforce expansions, or regulatory shifts—should trigger immediate strategy reviews.
+                    </div>
+                </details>
+
+                <details class="group bg-warm-50 rounded-sm border border-warm-200 open:ring-1 open:ring-forest-200 open:bg-white">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                        <h3 class="font-serif text-lg font-semibold text-forest-900">What's the difference between fully-insured and self-funded plans?</h3>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-forest-600 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-warm-700 leading-relaxed">
+                        Fully-insured plans involve paying a fixed premium to an insurance carrier who assumes all risk. Self-funded plans involve the employer paying claims directly, typically with stop-loss insurance to protect against catastrophic costs. Self-funding offers greater transparency, potential cost savings, and plan design flexibility, but requires more administrative oversight. We help clients determine which model fits their risk tolerance and organizational capabilities.
+                    </div>
+                </details>
+
+                <details class="group bg-warm-50 rounded-sm border border-warm-200 open:ring-1 open:ring-forest-200 open:bg-white">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                        <h3 class="font-serif text-lg font-semibold text-forest-900">How do you charge for your services?</h3>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-forest-600 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-warm-700 leading-relaxed">
+                        Acorn Benefits operates on a transparent compensation model. We receive standard commissions from carriers for fully-insured plans, which are built into premiums regardless of whether you use a broker. For self-funded plans and consulting projects, we may charge flat fees or per-employee-per-month rates. All compensation is disclosed upfront—no hidden fees or surprise charges.
+                    </div>
+                </details>
+
+                <details class="group bg-warm-50 rounded-sm border border-warm-200 open:ring-1 open:ring-forest-200 open:bg-white">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                        <h3 class="font-serif text-lg font-semibold text-forest-900">What makes Acorn different from other brokers?</h3>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-forest-600 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-warm-700 leading-relaxed">
+                        Three key differences define our approach: First, we maintain deep expertise on both the carrier and consulting sides of the industry, giving us unique insight into negotiations. Second, we provide year-round claims advocacy—when your employees have issues, we're actively involved in resolution. Third, we prioritize long-term strategy over transactional relationships. We're not interested in being your broker for one renewal cycle; we're invested in your organization's long-term success.
+                    </div>
+                </details>
+
+                <details class="group bg-warm-50 rounded-sm border border-warm-200 open:ring-1 open:ring-forest-200 open:bg-white">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                        <h3 class="font-serif text-lg font-semibold text-forest-900">How quickly can you resolve claims issues?</h3>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-forest-600 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-warm-700 leading-relaxed">
+                        Simple claims questions can often be resolved within 24-48 hours. Complex appeals or disputes requiring carrier negotiation typically take 5-10 business days, though we escalate urgent medical situations immediately. Our deep relationships with carrier claims departments and thorough understanding of coverage contracts allow us to navigate resolution faster than individual employees or HR teams working alone.
+                    </div>
+                </details>
+
+                <details class="group bg-warm-50 rounded-sm border border-warm-200 open:ring-1 open:ring-forest-200 open:bg-white">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                        <h3 class="font-serif text-lg font-semibold text-forest-900">Do you work with small businesses or only large employers?</h3>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-forest-600 group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="px-6 pb-6 text-warm-700 leading-relaxed">
+                        We specialize in mid-sized organizations—typically 50 to 500 employees—where benefits complexity has increased but internal HR resources may be limited. However, we work with smaller growing businesses and larger enterprises on a case-by-case basis. The key factor isn't company size, but the organization's desire for strategic partnership and proactive benefits management.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="py-24 bg-forest-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('http://static.photos/minimal/1024x576/55')] opacity-10 bg-cover bg-center"></div>
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <span class="text-forest-300 uppercase tracking-widest text-sm font-medium mb-4 block">Tools</span>
+                <h2 class="font-serif text-4xl lg:text-5xl font-semibold">Benefits Calculators & Tools</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-forest-800/50 p-8 rounded-sm backdrop-blur-sm border border-forest-700">
+                    <i data-lucide="calculator" class="w-10 h-10 text-forest-300 mb-6"></i>
+                    <h3 class="font-serif text-xl font-semibold text-white mb-3">Total Compensation Calculator</h3>
+                    <p class="text-forest-200 leading-relaxed mb-6">
+                        Help employees understand the full value of their benefits package beyond base salary, including employer-paid premiums, retirement matches, and PTO value.
+                    </p>
+                    <button class="inline-flex items-center text-white font-medium hover:text-forest-300 transition-colors">
+                        Access Tool
+                        <i data-lucide="external-link" class="ml-2 w-4 h-4"></i>
+                    </button>
+                </div>
+
+                <div class="bg-forest-800/50 p-8 rounded-sm backdrop-blur-sm border border-forest-700">
+                    <i data-lucide="piggy-bank" class="w-10 h-10 text-forest-300 mb-6"></i>
+                    <h3 class="font-serif text-xl font-semibold text-white mb-3">HSA Savings Estimator</h3>
+                    <p class="text-forest-200 leading-relaxed mb-6">
+                        Project the long-term tax savings and growth potential of Health Savings Account contributions for employees considering HDHP options.
+                    </p>
+                    <button class="inline-flex items-center text-white font-medium hover:text-forest-300 transition-colors">
+                        Access Tool
+                        <i data-lucide="external-link" class="ml-2 w-4 h-4"></i>
+                    </button>
+                </div>
+
+                <div class="bg-forest-800/50 p-8 rounded-sm backdrop-blur-sm border border-forest-700">
+                    <i data-lucide="trending-up" class="w-10 h-10 text-forest-300 mb-6"></i>
+                    <h3 class="font-serif text-xl font-semibold text-white mb-3">Renewal Trend Analyzer</h3>
+                    <p class="text-forest-200 leading-relaxed mb-6">
+                        Input your renewal data to visualize trend patterns, compare against industry benchmarks, and identify cost drivers in your medical plan.
+                    </p>
+                    <button class="inline-flex items-center text-white font-medium hover:text-forest-300 transition-colors">
+                        Access Tool
+                        <i data-lucide="external-link" class="ml-2 w-4 h-4"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-24 bg-warm-100">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <i data-lucide="mail" class="w-12 h-12 text-forest-700 mx-auto mb-6"></i>
+            <h2 class="font-serif text-4xl font-semibold text-forest-900 mb-4">Stay Informed</h2>
+            <p class="text-lg text-warm-700 mb-8 leading-relaxed">
+                Subscribe to our monthly newsletter for regulatory updates, industry insights, and practical benefits management tips delivered to your inbox.
+            </p>
+            
+            <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+                <input type="email" placeholder="Enter your email address" class="flex-1 px-6 py-3 rounded-sm border border-warm-300 focus:outline-none focus:border-forest-500 font-sans">
+                <button type="submit" class="px-8 py-3 bg-forest-800 text-white font-medium rounded-sm hover:bg-forest-700 transition-colors whitespace-nowrap">
+                    Subscribe
+                </button>
+            </form>
+            
+            <p class="text-sm text-warm-600 mt-4">No spam. Unsubscribe anytime. We respect your privacy.</p>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-24 bg-white text-center">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900 mb-6">
+                Need personalized guidance?
+            </h2>
+            <p class="text-xl text-warm-700 mb-10 leading-relaxed">
+                These resources are just the beginning. Let's discuss your specific situation and how Acorn Benefits can help you achieve your goals.
+            </p>
+            <a href="contact.html" class="inline-flex items-center justify-center px-10 py-5 bg-forest-800 text-white font-medium text-lg rounded-sm hover:bg-forest-700 transition-colors">
+                Request a Consultation
+                <i data-lucide="arrow-right" class="ml-2 w-5 h-5"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warm-900 text-warm-300 py-16">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <i data-lucide="leaf" class="w-6 h-6 text-forest-400"></i>
+                        <span class="font-serif text-xl font-semibold text-white">Acorn Benefits</span>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-6">
+                        Employee benefits consulting built on trust, clarity, and long-term partnership.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-white transition-colors"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+                        <a href="#" class="hover:text-white transition-colors"><i data-lucide="mail" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Services</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="services.html" class="hover:text-white transition-colors">Plan Design</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Renewal Strategy</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Claims Advocacy</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Ongoing Partnership</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Company</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="case-studies.html" class="hover:text-white transition-colors">Case Studies</a></li>
+                        <li><a href="resources.html" class="hover:text-white transition-colors">Resources</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Contact</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 mt-0.5"></i>
+                            <span>Portland, Oregon</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4"></i>
+                            <span>(503) 555-0142</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="mail" class="w-4 h-4"></i>
+                            <span>consult@acornbenefits.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-warm-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm">&copy; 2024 Acorn Benefits, LLC. All rights reserved.</p>
+                <div class="flex gap-6 text-sm">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

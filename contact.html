@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Acorn Benefits, LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        forest: {
+                            900: '#1a2f1a',
+                            800: '#2d4a3e',
+                            700: '#3d5c4e',
+                            600: '#4a6b5b',
+                            500: '#5a7d6a',
+                            400: '#7a9a89',
+                            300: '#9bb3a6',
+                            200: '#b8c9bf',
+                            100: '#d5e0d8',
+                            50: '#f2f5f3',
+                        },
+                        warm: {
+                            900: '#2c241b',
+                            800: '#4a3f32',
+                            700: '#6b5b4f',
+                            600: '#8b7355',
+                            500: '#a89276',
+                            400: '#c4b59a',
+                            300: '#d4c8b8',
+                            200: '#e5ddd2',
+                            100: '#f2ede6',
+                            50: '#faf8f5',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-warm-800 bg-warm-50 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-forest-800 border-b border-forest-700 z-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="https://static.showit.co/file/GdgEROq_fU7X04XbzQQeHw/158319/acorn_benifits_photo-11.png" alt="Acorn Benefits, LLC" class="h-12 w-auto">
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="services.html" class="text-white/90 hover:text-white font-medium transition-colors">Services</a>
+                    <a href="about.html" class="text-white/90 hover:text-white font-medium transition-colors">About</a>
+                    <a href="case-studies.html" class="text-white/90 hover:text-white font-medium transition-colors">Case Studies</a>
+                    <a href="resources.html" class="text-white/90 hover:text-white font-medium transition-colors">Resources</a>
+                    <a href="contact.html" class="px-6 py-3 bg-white text-forest-900 font-medium rounded-sm hover:bg-forest-100 transition-colors">
+                        Request a Review
+                    </a>
+                </div>
+
+                <button class="md:hidden p-2 text-white" id="mobile-menu-btn">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="hidden md:hidden bg-forest-800 border-t border-forest-700" id="mobile-menu">
+            <div class="px-6 py-4 space-y-3">
+                <a href="services.html" class="block py-2 text-white/90 hover:text-white">Services</a>
+                <a href="about.html" class="block py-2 text-white/90 hover:text-white">About</a>
+                <a href="case-studies.html" class="block py-2 text-white/90 hover:text-white">Case Studies</a>
+                <a href="resources.html" class="block py-2 text-white/90 hover:text-white">Resources</a>
+                <a href="contact.html" class="block py-2 text-white font-semibold">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-32 pb-20 bg-forest-900 text-white relative">
+        <div class="absolute inset-0 bg-[url('http://static.photos/office/1024x576/144')] opacity-20 bg-cover bg-center"></div>
+        <div class="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
+            <span class="text-forest-300 uppercase tracking-widest text-sm font-medium mb-4 block">Get in Touch</span>
+            <h1 class="font-serif text-5xl lg:text-6xl font-semibold mb-6">Start the Conversation</h1>
+            <p class="text-xl text-forest-200 max-w-3xl mx-auto leading-relaxed">
+                Ready to bring clarity to your benefits strategy? Schedule a complimentary review or reach out with any questions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <!-- Contact Form -->
+                <div>
+                    <h2 class="font-serif text-3xl font-semibold text-forest-900 mb-2">Request a Benefits Review</h2>
+                    <p class="text-warm-700 mb-8 leading-relaxed">
+                        Complimentary analysis of your current program with actionable recommendations delivered within 48 hours.
+                    </p>
+                    
+                    <form class="space-y-6" action="#" method="POST">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-warm-800 mb-2">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required 
+                                    class="w-full px-4 py-3 border border-warm-300 rounded-sm focus:outline-none focus:border-forest-500 font-sans bg-warm-50">
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-warm-800 mb-2">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required 
+                                    class="w-full px-4 py-3 border border-warm-300 rounded-sm focus:outline-none focus:border-forest-500 font-sans bg-warm-50">
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-warm-800 mb-2">Work Email *</label>
+                                <input type="email" id="email" name="email" required 
+                                    class="w-full px-4 py-3 border border-warm-300 rounded-sm focus:outline-none focus:border-forest-500 font-sans bg-warm-50">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-warm-800 mb-2">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" 
+                                    class="w-full px-4 py-3 border border-warm-300 rounded-sm focus:outline-none focus:border-forest-500 font-sans bg-warm-50">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="company" class="block text-sm font-medium text-warm-800 mb-2">Company Name *</label>
+                            <input type="text" id="company" name="company" required 
+                                class="w-full px-4 py-3 border border-warm-300 rounded-sm focus:outline-none focus:border-forest-500 font-sans bg-warm-50">
+                        </div>
+                        
+                        <div>
+                            <label for="employees" class="block text-sm font-medium text-warm-800 mb-2">Number of Employees</label>
+                            <select id="employees" name="employees" 
+                                class="w-full px-4 py-3 border border-warm-300 rounded-sm focus:outline-none focus:border-forest-500 font-sans bg-warm-50 text-warm-700">
+                                <option value="">Select range...</option>
+                                <option value="1-50">1-50</option>
+                                <option value="51-100">51-100</option>
+                                <option value="101-250">101-250</option>
+                                <option value="251-500">251-500</option>
+                                <option value="500+">500+</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-warm-800 mb-2">How can we help you?</label>
+                            <textarea id="message" name="message" rows="4" 
+                                class="w-full px-4 py-3 border border-warm-300 rounded-sm focus:outline-none focus:border-forest-500 font-sans bg-warm-50 resize-none"></textarea>
+                        </div>
+                        
+                        <button type="submit" 
+                            class="w-full md:w-auto px-10 py-4 bg-forest-800 text-white font-medium text-lg rounded-sm hover:bg-forest-700 transition-colors inline-flex items-center justify-center">
+                            Submit Request
+                            <i data-lucide="send" class="ml-2 w-5 h-5"></i>
+                        </button>
+                        
+                        <p class="text-sm text-warm-500">
+                            We respect your privacy. Your information will never be shared with third parties.
+                        </p>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="lg:pl-12">
+                    <div class="bg-forest-50 p-8 rounded-sm mb-8">
+                        <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-forest-100 rounded-sm flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="map-pin" class="w-5 h-5 text-forest-700"></i>
+                                </div>
+                                <div>
+                                    <p class="font-medium text-warm-800 mb-1">Office Address</p>
+                                    <p class="text-warm-700 leading-relaxed">
+                                        1234 Southwest Boulevard<br>
+                                        Suite 400<br>
+                                        Portland, OR 97205
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-forest-100 rounded-sm flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="phone" class="w-5 h-5 text-forest-700"></i>
+                                </div>
+                                <div>
+                                    <p class="font-medium text-warm-800 mb-1">Phone</p>
+                                    <p class="text-warm-700">(503) 555-0142</p>
+                                    <p class="text-sm text-warm-500 mt-1">Mon-Fri, 8am-5pm PT</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-forest-100 rounded-sm flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="mail" class="w-5 h-5 text-forest-700"></i>
+                                </div>
+                                <div>
+                                    <p class="font-medium text-warm-800 mb-1">Email</p>
+                                    <p class="text-warm-700">consult@acornbenefits.com</p>
+                                    <p class="text-sm text-warm-500 mt-1">Response within 24 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-warm-900 text-warm-200 p-8 rounded-sm">
+                        <h3 class="font-serif text-xl font-semibold text-white mb-4">What happens next?</h3>
+                        <ol class="space-y-3 text-sm">
+                            <li class="flex gap-3">
+                                <span class="w-6 h-6 bg-forest-700 rounded-full flex items-center justify-center text-white text-xs font-semibold flex-shrink-0">1</span>
+                                <span>We review your submission within 24 hours</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="w-6 h-6 bg-forest-700 rounded-full flex items-center justify-center text-white text-xs font-semibold flex-shrink-0">2</span>
+                                <span>Schedule a brief discovery call to discuss your needs</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="w-6 h-6 bg-forest-700 rounded-full flex items-center justify-center text-white text-xs font-semibold flex-shrink-0">3</span>
+                                <span>Receive your complimentary Benefits Review within 48 hours</span>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="mt-8 text-center">
+                        <p class="text-warm-600 text-sm italic">
+                            "We typically begin with a 30-minute discovery call to understand your current challenges before diving into data analysis."
+                        </p>
+                        <p class="text-warm-500 text-sm mt-2">— Margaret Chen, Managing Principal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map/Image Section -->
+    <section class="py-24 bg-warm-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="http://static.photos/cityscape/1024x576/201" alt="Portland cityscape" class="rounded-sm shadow-lg w-full object-cover">
+                </div>
+                <div>
+                    <h2 class="font-serif text-3xl lg:text-4xl font-semibold text-forest-900 mb-6">
+                        Serving the Pacific Northwest and Beyond
+                    </h2>
+                    <p class="text-lg text-warm-700 leading-relaxed mb-6">
+                        While our roots are in Portland, we serve clients across the Pacific Northwest and throughout the United States. Modern collaboration tools allow us to provide the same high-touch service whether you're down the street or across the country.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6 text-center">
+                        <div class="p-4 bg-white rounded-sm">
+                            <div class="text-3xl font-serif font-semibold text-forest-800 mb-1">Oregon</div>
+                            <div class="text-sm text-warm-600">Headquarters</div>
+                        </div>
+                        <div class="p-4 bg-white rounded-sm">
+                            <div class="text-3xl font-serif font-semibold text-forest-800 mb-1">12+</div>
+                            <div class="text-sm text-warm-600">States Served</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warm-900 text-warm-300 py-16">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <i data-lucide="leaf" class="w-6 h-6 text-forest-400"></i>
+                        <span class="font-serif text-xl font-semibold text-white">Acorn Benefits</span>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-6">
+                        Employee benefits consulting built on trust, clarity, and long-term partnership.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-white transition-colors"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+                        <a href="#" class="hover:text-white transition-colors"><i data-lucide="mail" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Services</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="services.html" class="hover:text-white transition-colors">Plan Design</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Renewal Strategy</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Claims Advocacy</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Ongoing Partnership</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Company</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="case-studies.html" class="hover:text-white transition-colors">Case Studies</a></li>
+                        <li><a href="resources.html" class="hover:text-white transition-colors">Resources</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Contact</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 mt-0.5"></i>
+                            <span>Portland, Oregon</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4"></i>
+                            <span>(503) 555-0142</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="mail" class="w-4 h-4"></i>
+                            <span>consult@acornbenefits.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-warm-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm">&copy; 2024 Acorn Benefits, LLC. All rights reserved.</p>
+                <div class="flex gap-6 text-sm">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

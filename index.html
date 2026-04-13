@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acorn Benefits, LLC | Employee Benefits Consulting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        forest: {
+                            900: '#1a2f1a',
+                            800: '#2d4a3e',
+                            700: '#3d5c4e',
+                            600: '#4a6b5b',
+                            500: '#5a7d6a',
+                            400: '#7a9a89',
+                            300: '#9bb3a6',
+                            200: '#b8c9bf',
+                            100: '#d5e0d8',
+                            50: '#f2f5f3',
+                        },
+                        warm: {
+                            900: '#2c241b',
+                            800: '#4a3f32',
+                            700: '#6b5b4f',
+                            600: '#8b7355',
+                            500: '#a89276',
+                            400: '#c4b59a',
+                            300: '#d4c8b8',
+                            200: '#e5ddd2',
+                            100: '#f2ede6',
+                            50: '#faf8f5',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(26, 47, 26, 0.12);
+        }
+    </style>
+</head>
+<body class="font-sans text-warm-800 bg-warm-50 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-forest-800 border-b border-forest-700 z-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="https://static.showit.co/file/GdgEROq_fU7X04XbzQQeHw/158319/acorn_benifits_photo-11.png" alt="Acorn Benefits, LLC" class="h-12 w-auto">
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="services.html" class="text-white/90 hover:text-white font-medium transition-colors">Services</a>
+                    <a href="about.html" class="text-white/90 hover:text-white font-medium transition-colors">About</a>
+                    <a href="case-studies.html" class="text-white/90 hover:text-white font-medium transition-colors">Case Studies</a>
+                    <a href="resources.html" class="text-white/90 hover:text-white font-medium transition-colors">Resources</a>
+                    <a href="contact.html" class="px-6 py-3 bg-white text-forest-900 font-medium rounded-sm hover:bg-forest-100 transition-colors">
+                        Request a Review
+                    </a>
+                </div>
+
+                <button class="md:hidden p-2 text-white" id="mobile-menu-btn">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden bg-forest-800 border-t border-forest-700" id="mobile-menu">
+            <div class="px-6 py-4 space-y-3">
+                <a href="services.html" class="block py-2 text-white/90 hover:text-white">Services</a>
+                <a href="about.html" class="block py-2 text-white/90 hover:text-white">About</a>
+                <a href="case-studies.html" class="block py-2 text-white/90 hover:text-white">Case Studies</a>
+                <a href="resources.html" class="block py-2 text-white/90 hover:text-white">Resources</a>
+                <a href="contact.html" class="block py-2 text-white font-semibold">Request a Review</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-24 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('https://static.showit.co/file/9w65omUgZfLruJ3ZHPQ2jA/158319/river_expanded_sm.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-forest-900/50 via-forest-800/30 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-forest-900/25 to-transparent"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="max-w-4xl fade-in relative z-10">
+                <h1 class="font-serif text-5xl lg:text-7xl font-semibold text-white leading-tight mb-8 drop-shadow-lg">
+                    With Trust Comes<br>Peace of Mind.
+                </h1>
+                <p class="text-xl lg:text-2xl text-white/90 font-light leading-relaxed mb-12 max-w-3xl drop-shadow-md">
+                    Acorn Benefits delivers clarity in complexity, unwavering advocacy during claims, and steady guidance for the long-term care of your employee benefits program.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 relative z-10">
+                    <a href="contact.html" class="inline-flex items-center justify-center px-8 py-4 bg-white text-forest-900 font-medium text-lg rounded-sm hover:bg-warm-100 transition-colors shadow-lg">
+                        Request a Benefits Review
+                        <i data-lucide="arrow-right" class="ml-2 w-5 h-5"></i>
+                    </a>
+                    <a href="services.html" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-medium text-lg rounded-sm hover:bg-white/10 transition-colors">
+                        Explore Our Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credibility Strip -->
+    <section class="py-16 bg-white border-y border-warm-200">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+                <div class="text-center p-6">
+                    <div class="text-4xl font-serif font-semibold text-forest-800 mb-2">60+</div>
+                    <div class="text-warm-600 uppercase tracking-widest text-sm mb-3">Years Experience</div>
+                    <p class="text-warm-700">Combined expertise navigating the evolving benefits landscape</p>
+                </div>
+                <div class="text-center p-6 border-t md:border-t-0 md:border-l border-warm-200">
+                    <div class="flex justify-center mb-3">
+                        <i data-lucide="binoculars" class="w-8 h-8 text-forest-700"></i>
+                    </div>
+                    <div class="text-warm-600 uppercase tracking-widest text-sm mb-3">Unique Perspective</div>
+                    <p class="text-warm-700">Unique insight from both carrier and broker sides of the industry</p>
+                </div>
+                <div class="text-center p-6 border-t md:border-t-0 md:border-l border-warm-200">
+                    <div class="flex justify-center mb-3">
+                        <i data-lucide="shield-check" class="w-8 h-8 text-forest-700"></i>
+                    </div>
+                    <div class="text-warm-600 uppercase tracking-widest text-sm mb-3">Claims Advocacy</div>
+                    <p class="text-warm-700">Dedicated support when your employees need it most</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="py-24 lg:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">The Challenge</span>
+                    <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900 mb-6 leading-tight">
+                        Benefits shouldn't feel overwhelming.
+                    </h2>
+                    <p class="text-lg text-warm-700 leading-relaxed mb-6">
+                        For many business leaders, employee benefits represent one of the largest line items in the budget—yet the complexity often obscures the value. Rising costs, changing regulations, and administrative burden create friction where there should be clarity.
+                    </p>
+                    <p class="text-lg text-warm-700 leading-relaxed">
+                        Without strategic guidance, organizations find themselves reacting to renewals rather than proactively designing programs that attract talent and control costs.
+                    </p>
+                </div>
+                <div class="relative">
+                    <img src="http://static.photos/office/1024x576/42" alt="Professional office environment" class="rounded-sm shadow-xl w-full object-cover">
+                    <div class="absolute -bottom-6 -left-6 bg-forest-800 text-white p-8 rounded-sm shadow-lg max-w-xs hidden lg:block">
+                        <p class="font-serif text-xl italic mb-2">"We were drowning in renewal spreadsheets until Acorn brought us clarity."</p>
+                        <p class="text-sm text-forest-200">— CFO, Manufacturing Firm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Section -->
+    <section class="py-24 lg:py-32 bg-warm-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+            <span class="text-forest-700 uppercase tracking-widest text-sm font-medium mb-4 block">Our Approach</span>
+            <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900 mb-8 max-w-3xl mx-auto">
+                Benefits guidance built on trust.
+            </h2>
+            <p class="text-xl text-warm-700 max-w-3xl mx-auto leading-relaxed mb-16">
+                Acorn Benefits maximizes value for your employees—while minimizing cost for your business. We believe that transparent communication and steady advocacy create the foundation for lasting partnerships.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                <div class="bg-white p-8 rounded-sm shadow-sm hover-lift">
+                    <i data-lucide="compass" class="w-10 h-10 text-forest-700 mb-6"></i>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Clarity</h3>
+                    <p class="text-warm-700">Complex benefits data translated into actionable strategy. No jargon, no surprises.</p>
+                </div>
+                <div class="bg-white p-8 rounded-sm shadow-sm hover-lift">
+                    <i data-lucide="scale" class="w-10 h-10 text-forest-700 mb-6"></i>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Balance</h3>
+                    <p class="text-warm-700">Competitive employee value proposition meets fiscal responsibility.</p>
+                </div>
+                <div class="bg-white p-8 rounded-sm shadow-sm hover-lift">
+                    <i data-lucide="anchor" class="w-10 h-10 text-forest-700 mb-6"></i>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Steadfastness</h3>
+                    <p class="text-warm-700">Consistent advocacy and support through every stage of the benefits lifecycle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-24 lg:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">Expertise</span>
+                <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900">Comprehensive Services</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group p-8 border border-warm-200 rounded-sm hover:border-forest-300 transition-colors">
+                    <div class="flex items-start justify-between mb-4">
+                        <i data-lucide="layout-template" class="w-10 h-10 text-forest-700"></i>
+                        <i data-lucide="arrow-up-right" class="w-5 h-5 text-warm-400 group-hover:text-forest-600 transition-colors"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Plan Design</h3>
+                    <p class="text-warm-700 leading-relaxed">Strategic benefits architecture tailored to your workforce demographics, budget parameters, and competitive landscape.</p>
+                </div>
+                
+                <div class="group p-8 border border-warm-200 rounded-sm hover:border-forest-300 transition-colors">
+                    <div class="flex items-start justify-between mb-4">
+                        <i data-lucide="refresh-cw" class="w-10 h-10 text-forest-700"></i>
+                        <i data-lucide="arrow-up-right" class="w-5 h-5 text-warm-400 group-hover:text-forest-600 transition-colors"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Renewal Strategy</h3>
+                    <p class="text-warm-700 leading-relaxed">Data-driven negotiation and market analysis to optimize your renewal outcomes and control trend.</p>
+                </div>
+                
+                <div class="group p-8 border border-warm-200 rounded-sm hover:border-forest-300 transition-colors">
+                    <div class="flex items-start justify-between mb-4">
+                        <i data-lucide="life-buoy" class="w-10 h-10 text-forest-700"></i>
+                        <i data-lucide="arrow-up-right" class="w-5 h-5 text-warm-400 group-hover:text-forest-600 transition-colors"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Claims Advocacy</h3>
+                    <p class="text-warm-700 leading-relaxed">Dedicated support navigating complex claims issues, ensuring your employees receive the benefits they've earned.</p>
+                </div>
+                
+                <div class="group p-8 border border-warm-200 rounded-sm hover:border-forest-300 transition-colors">
+                    <div class="flex items-start justify-between mb-4">
+                        <i data-lucide="users" class="w-10 h-10 text-forest-700"></i>
+                        <i data-lucide="arrow-up-right" class="w-5 h-5 text-warm-400 group-hover:text-forest-600 transition-colors"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Ongoing Partnership</h3>
+                    <p class="text-warm-700 leading-relaxed">Year-round consultation, employee education, and proactive strategy adjustments as your business evolves.</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="services.html" class="inline-flex items-center text-forest-800 font-medium hover:text-forest-600 transition-colors">
+                    View all services
+                    <i data-lucide="arrow-right" class="ml-2 w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentiator -->
+    <section class="py-24 lg:py-32 bg-forest-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://static.showit.co/file/N0eTRrgpdZn1jaMtm2B6Bg/158319/acorn_benifits_photo-12.png')] opacity-20 bg-cover bg-center" style="filter: blur(8px); transform: scale(1.1);"></div>
+        <div class="max-w-5xl mx-auto px-6 lg:px-8 text-center relative z-10">
+            <i data-lucide="infinity" class="w-12 h-12 text-forest-300 mx-auto mb-8"></i>
+            <h2 class="font-serif text-4xl lg:text-5xl font-semibold mb-6">
+                We don't disappear after renewal.
+            </h2>
+            <p class="text-xl text-forest-200 leading-relaxed max-w-3xl mx-auto mb-8">
+                Unlike transactional brokers who focus solely on the sale, we embed ourselves in your operations. From open enrollment to claims resolution to mid-year strategy adjustments, we remain present, responsive, and invested in your success.
+            </p>
+            <div class="flex flex-wrap justify-center gap-8 text-forest-200 text-sm uppercase tracking-widest">
+                <span class="flex items-center gap-2">
+                    <i data-lucide="check-circle" class="w-4 h-4"></i> Year-Round Availability
+                </span>
+                <span class="flex items-center gap-2">
+                    <i data-lucide="check-circle" class="w-4 h-4"></i> Quarterly Business Reviews
+                </span>
+                <span class="flex items-center gap-2">
+                    <i data-lucide="check-circle" class="w-4 h-4"></i> Employee Education
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-24 lg:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">How We Work</span>
+                <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900">A Simple, Proven Process</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+                <!-- Connecting line for desktop -->
+                <div class="hidden md:block absolute top-12 left-1/6 right-1/6 h-px bg-forest-200"></div>
+                
+                <div class="relative text-center">
+                    <div class="w-24 h-24 bg-forest-100 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
+                        <span class="font-serif text-3xl font-semibold text-forest-800">1</span>
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Assessment</h3>
+                    <p class="text-warm-700">Deep dive into your current plans, utilization data, employee demographics, and organizational goals.</p>
+                </div>
+                
+                <div class="relative text-center">
+                    <div class="w-24 h-24 bg-forest-100 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
+                        <span class="font-serif text-3xl font-semibold text-forest-800">2</span>
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Strategy</h3>
+                    <p class="text-warm-700">Customized recommendations balancing cost containment with competitive employee value.</p>
+                </div>
+                
+                <div class="relative text-center">
+                    <div class="w-24 h-24 bg-forest-100 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
+                        <span class="font-serif text-3xl font-semibold text-forest-800">3</span>
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Partnership</h3>
+                    <p class="text-warm-700">Ongoing implementation support, employee communication, and continuous optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Teaser -->
+    <section class="py-24 lg:py-32 bg-warm-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="order-2 lg:order-1">
+                    <img src="http://static.photos/workspace/1024x576/55" alt="Business team meeting" class="rounded-sm shadow-lg w-full object-cover">
+                </div>
+                <div class="order-1 lg:order-2">
+                    <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">Case Study</span>
+                    <h2 class="font-serif text-3xl lg:text-4xl font-semibold text-forest-900 mb-6">
+                        200-Employee Manufacturer Reduces Benefits Spend by 15% While Enhancing Coverage
+                    </h2>
+                    <p class="text-lg text-warm-700 leading-relaxed mb-8">
+                        Through strategic plan redesign and carrier negotiation, we helped a mid-sized manufacturing firm significantly reduce their benefits costs while actually improving coverage levels for their employees.
+                    </p>
+                    <div class="flex items-center gap-8 mb-8">
+                        <div>
+                            <div class="text-3xl font-serif font-semibold text-forest-800">15%</div>
+                            <div class="text-sm text-warm-600 uppercase tracking-wider">Cost Reduction</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-serif font-semibold text-forest-800">$240K</div>
+                            <div class="text-sm text-warm-600 uppercase tracking-wider">Annual Savings</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-serif font-semibold text-forest-800">94%</div>
+                            <div class="text-sm text-warm-600 uppercase tracking-wider">Employee Satisfaction</div>
+                        </div>
+                    </div>
+                    <a href="case-studies.html" class="inline-flex items-center text-forest-800 font-medium hover:text-forest-600 transition-colors">
+                        Read the full case study
+                        <i data-lucide="arrow-right" class="ml-2 w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-24 lg:py-32 bg-forest-800">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-white mb-6">
+                Ready for clarity in your benefits strategy?
+            </h2>
+            <p class="text-xl text-forest-200 mb-10 leading-relaxed">
+                Schedule a complimentary Benefits Review. We'll analyze your current program and identify immediate opportunities for cost savings and value enhancement.
+            </p>
+            <a href="contact.html" class="inline-flex items-center justify-center px-10 py-5 bg-white text-forest-900 font-medium text-lg rounded-sm hover:bg-warm-100 transition-colors">
+                Request a Benefits Review
+                <i data-lucide="arrow-right" class="ml-2 w-5 h-5"></i>
+            </a>
+            <p class="mt-6 text-forest-300 text-sm">No obligation. Confidential consultation.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warm-900 text-warm-300 py-16">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <i data-lucide="leaf" class="w-6 h-6 text-forest-400"></i>
+                        <span class="font-serif text-xl font-semibold text-white">Acorn Benefits</span>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-6">
+                        Employee benefits consulting built on trust, clarity, and long-term partnership.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-white transition-colors"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+                        <a href="#" class="hover:text-white transition-colors"><i data-lucide="mail" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Services</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="services.html" class="hover:text-white transition-colors">Plan Design</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Renewal Strategy</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Claims Advocacy</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Ongoing Partnership</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Company</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="case-studies.html" class="hover:text-white transition-colors">Case Studies</a></li>
+                        <li><a href="resources.html" class="hover:text-white transition-colors">Resources</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Contact</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 mt-0.5"></i>
+                            <span>Portland, Oregon</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4"></i>
+                            <span>(503) 555-0142</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="mail" class="w-4 h-4"></i>
+                            <span>consult@acornbenefits.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-warm-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm">&copy; 2024 Acorn Benefits, LLC. All rights reserved.</p>
+                <div class="flex gap-6 text-sm">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+<script src="https://deepsite.hf.co/deepsite-badge.js"></script>
+</body>
+</html>

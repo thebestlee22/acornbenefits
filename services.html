@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Acorn Benefits, LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        forest: {
+                            900: '#1a2f1a',
+                            800: '#2d4a3e',
+                            700: '#3d5c4e',
+                            600: '#4a6b5b',
+                            500: '#5a7d6a',
+                            400: '#7a9a89',
+                            300: '#9bb3a6',
+                            200: '#b8c9bf',
+                            100: '#d5e0d8',
+                            50: '#f2f5f3',
+                        },
+                        warm: {
+                            900: '#2c241b',
+                            800: '#4a3f32',
+                            700: '#6b5b4f',
+                            600: '#8b7355',
+                            500: '#a89276',
+                            400: '#c4b59a',
+                            300: '#d4c8b8',
+                            200: '#e5ddd2',
+                            100: '#f2ede6',
+                            50: '#faf8f5',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-warm-800 bg-warm-50 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-forest-800 border-b border-forest-700 z-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="https://static.showit.co/file/GdgEROq_fU7X04XbzQQeHw/158319/acorn_benifits_photo-11.png" alt="Acorn Benefits, LLC" class="h-12 w-auto">
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="services.html" class="text-white font-medium">Services</a>
+                    <a href="about.html" class="text-white/90 hover:text-white font-medium transition-colors">About</a>
+                    <a href="case-studies.html" class="text-white/90 hover:text-white font-medium transition-colors">Case Studies</a>
+                    <a href="resources.html" class="text-white/90 hover:text-white font-medium transition-colors">Resources</a>
+                    <a href="contact.html" class="px-6 py-3 bg-white text-forest-900 font-medium rounded-sm hover:bg-forest-100 transition-colors">
+                        Request a Review
+                    </a>
+                </div>
+
+                <button class="md:hidden p-2 text-white" id="mobile-menu-btn">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="hidden md:hidden bg-forest-800 border-t border-forest-700" id="mobile-menu">
+            <div class="px-6 py-4 space-y-3">
+                <a href="services.html" class="block py-2 text-white font-semibold">Services</a>
+                <a href="about.html" class="block py-2 text-white/90 hover:text-white">About</a>
+                <a href="case-studies.html" class="block py-2 text-white/90 hover:text-white">Case Studies</a>
+                <a href="resources.html" class="block py-2 text-white/90 hover:text-white">Resources</a>
+                <a href="contact.html" class="block py-2 text-white font-semibold">Request a Review</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-32 pb-20 bg-forest-900 text-white relative">
+        <div class="absolute inset-0 bg-[url('https://static.showit.co/file/OfXnTwyKxVONzRFB6SwZSg/158319/vecteezy_business-professional-focused-on-tasks-while-sitting-at-desk_67575718.jpg')] opacity-20 bg-cover bg-center"></div>
+        <div class="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
+            <span class="text-forest-300 uppercase tracking-widest text-sm font-medium mb-4 block">Expertise</span>
+            <h1 class="font-serif text-5xl lg:text-6xl font-semibold mb-6">Our Services</h1>
+            <p class="text-xl text-forest-200 max-w-3xl mx-auto leading-relaxed">
+                Comprehensive benefits consulting designed to reduce costs, mitigate risk, and enhance the employee experience.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Services -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            
+            <!-- Service 1 -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
+                <div class="order-2 lg:order-1">
+                    <div class="w-16 h-16 bg-forest-100 rounded-sm flex items-center justify-center mb-6">
+                        <i data-lucide="layout-template" class="w-8 h-8 text-forest-800"></i>
+                    </div>
+                    <h2 class="font-serif text-4xl font-semibold text-forest-900 mb-6">Plan Design</h2>
+                    <p class="text-lg text-warm-700 leading-relaxed mb-6">
+                        Strategic benefits architecture that aligns with your business objectives and workforce needs. We analyze utilization data, demographic trends, and competitive benchmarks to design plans that attract and retain talent while controlling costs.
+                    </p>
+                    <ul class="space-y-3 text-warm-700 mb-8">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Medical, dental, and vision plan optimization</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>HDHP and HSA strategy</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Voluntary benefits integration</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Wellness program design</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <img src="https://static.showit.co/file/Ip5WrPzxZtKrgs11-Ye6tw/158319/vecteezy_hands-typing-on-keyboard-working-from-home-desk-with-green_75799573.jpg" alt="Plan design strategy" class="rounded-sm shadow-xl w-full">
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
+                <div>
+                    <img src="https://static.showit.co/file/agyUfxGpHiPE0RScQ7w2WQ/158319/vecteezy_male-mature-caucasian-ceo-businessman-leader-with-diverse_37805920.jpg" alt="Renewal strategy" class="rounded-sm shadow-xl w-full">
+                </div>
+                <div>
+                    <div class="w-16 h-16 bg-forest-100 rounded-sm flex items-center justify-center mb-6">
+                        <i data-lucide="refresh-cw" class="w-8 h-8 text-forest-800"></i>
+                    </div>
+                    <h2 class="font-serif text-4xl font-semibold text-forest-900 mb-6">Renewal Strategy</h2>
+                    <p class="text-lg text-warm-700 leading-relaxed mb-6">
+                        Navigate the renewal process with confidence. Our data-driven approach and market leverage ensure you receive competitive rates and optimal terms, often identifying significant savings opportunities hidden in the details.
+                    </p>
+                    <ul class="space-y-3 text-warm-700 mb-8">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Claims analysis and trend forecasting</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Carrier negotiation and benchmarking</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Alternative funding evaluation</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Pharmacy benefit management review</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
+                <div class="order-2 lg:order-1">
+                    <div class="w-16 h-16 bg-forest-100 rounded-sm flex items-center justify-center mb-6">
+                        <i data-lucide="life-buoy" class="w-8 h-8 text-forest-800"></i>
+                    </div>
+                    <h2 class="font-serif text-4xl font-semibold text-forest-900 mb-6">Claims Advocacy</h2>
+                    <p class="text-lg text-warm-700 leading-relaxed mb-6">
+                        When complex medical claims arise, your employees need an advocate who understands the system. We provide hands-on support to resolve disputes, clarify coverage, and ensure your team receives the benefits they deserve.
+                    </p>
+                    <ul class="space-y-3 text-warm-700 mb-8">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Complex claim resolution</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Appeals management</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Employee education and support</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Coordination with carriers and providers</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <img src="https://static.showit.co/file/seUV7QYqW-1hecsr0zdp7w/158319/vecteezy_desk-workspace-with-documents-tablet-and-glasses-during-a_54693446.jpg" alt="Claims advocacy" class="rounded-sm shadow-xl w-full">
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <img src="https://static.showit.co/file/0beFMCRXZcfEcYx2PApszw/158319/vecteezy_ai-generated-describing-an-office-environment-with_38812103.jpg" alt="Ongoing partnership" class="rounded-sm shadow-xl w-full">
+                </div>
+                <div>
+                    <div class="w-16 h-16 bg-forest-100 rounded-sm flex items-center justify-center mb-6">
+                        <i data-lucide="users" class="w-8 h-8 text-forest-800"></i>
+                    </div>
+                    <h2 class="font-serif text-4xl font-semibold text-forest-900 mb-6">Ongoing Partnership</h2>
+                    <p class="text-lg text-warm-700 leading-relaxed mb-6">
+                        Our relationship extends far beyond renewal season. We serve as your year-round benefits department, providing strategic guidance, employee education, and proactive adjustments as your business evolves.
+                    </p>
+                    <ul class="space-y-3 text-warm-700 mb-8">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Quarterly business reviews</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Employee enrollment and education</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>Compliance monitoring and updates</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-5 h-5 text-forest-600 mt-0.5"></i>
+                            <span>HR team training and support</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-forest-800">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 class="font-serif text-3xl lg:text-4xl font-semibold text-white mb-6">
+                Not sure which services you need?
+            </h2>
+            <p class="text-lg text-forest-200 mb-8">
+                Start with a complimentary Benefits Review. We'll assess your current situation and recommend a tailored approach.
+            </p>
+            <a href="contact.html" class="inline-flex items-center justify-center px-8 py-4 bg-white text-forest-900 font-medium rounded-sm hover:bg-warm-100 transition-colors">
+                Schedule Your Review
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warm-900 text-warm-300 py-16">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <i data-lucide="leaf" class="w-6 h-6 text-forest-400"></i>
+                        <span class="font-serif text-xl font-semibold text-white">Acorn Benefits</span>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-6">
+                        Employee benefits consulting built on trust, clarity, and long-term partnership.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-white transition-colors"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+                        <a href="#" class="hover:text-white transition-colors"><i data-lucide="mail" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Services</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="services.html" class="hover:text-white transition-colors">Plan Design</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Renewal Strategy</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Claims Advocacy</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Ongoing Partnership</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Company</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="case-studies.html" class="hover:text-white transition-colors">Case Studies</a></li>
+                        <li><a href="resources.html" class="hover:text-white transition-colors">Resources</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-medium mb-4 uppercase tracking-wider text-sm">Contact</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 mt-0.5"></i>
+                            <span>Portland, Oregon</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4"></i>
+                            <span>(503) 555-0142</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="mail" class="w-4 h-4"></i>
+                            <span>consult@acornbenefits.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-warm-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm">&copy; 2024 Acorn Benefits, LLC. All rights reserved.</p>
+                <div class="flex gap-6 text-sm">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

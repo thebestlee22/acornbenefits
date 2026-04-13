@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Acorn Benefits, LLC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        forest: {
+                            900: '#1a2f1a',
+                            800: '#2d4a3e',
+                            700: '#3d5c4e',
+                            600: '#4a6b5b',
+                            500: '#5a7d6a',
+                            400: '#7a9a89',
+                            300: '#9bb3a6',
+                            200: '#b8c9bf',
+                            100: '#d5e0d8',
+                            50: '#f2f5f3',
+                        },
+                        warm: {
+                            900: '#2c241b',
+                            800: '#4a3f32',
+                            700: '#6b5b4f',
+                            600: '#8b7355',
+                            500: '#a89276',
+                            400: '#c4b59a',
+                            300: '#d4c8b8',
+                            200: '#e5ddd2',
+                            100: '#f2ede6',
+                            50: '#faf8f5',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-warm-800 bg-warm-50 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-forest-800 border-b border-forest-700 z-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <img src="https://static.showit.co/file/GdgEROq_fU7X04XbzQQeHw/158319/acorn_benifits_photo-11.png" alt="Acorn Benefits, LLC" class="h-12 w-auto">
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="services.html" class="text-white/90 hover:text-white font-medium transition-colors">Services</a>
+                    <a href="about.html" class="text-white font-medium">About</a>
+                    <a href="case-studies.html" class="text-white/90 hover:text-white font-medium transition-colors">Case Studies</a>
+                    <a href="resources.html" class="text-white/90 hover:text-white font-medium transition-colors">Resources</a>
+                    <a href="contact.html" class="px-6 py-3 bg-white text-forest-900 font-medium rounded-sm hover:bg-forest-100 transition-colors">
+                        Request a Review
+                    </a>
+                </div>
+
+                <button class="md:hidden p-2 text-white" id="mobile-menu-btn">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="hidden md:hidden bg-forest-800 border-t border-forest-700" id="mobile-menu">
+            <div class="px-6 py-4 space-y-3">
+                <a href="services.html" class="block py-2 text-white/90 hover:text-white">Services</a>
+                <a href="about.html" class="block py-2 text-white font-semibold">About</a>
+                <a href="case-studies.html" class="block py-2 text-white/90 hover:text-white">Case Studies</a>
+                <a href="resources.html" class="block py-2 text-white/90 hover:text-white">Resources</a>
+                <a href="contact.html" class="block py-2 text-white font-semibold">Request a Review</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-32 pb-32 bg-warm-100 relative">
+        <div class="absolute inset-0 bg-[url('https://static.showit.co/file/VDCK1HieuaMrBoT6rmDdng/158319/vecteezy_close-up-hands-working-on-laptop-professional-work_2487537.jpg')] opacity-[15%] bg-cover bg-center bg-no-repeat"></div>
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <span class="text-forest-700 uppercase tracking-widest text-sm font-medium mb-4 block">About Us</span>
+                <h1 class="font-serif text-5xl lg:text-6xl font-semibold text-forest-900 mb-6 leading-tight">
+                    Steady guidance for complex decisions.
+                </h1>
+                <p class="text-xl text-warm-700 leading-relaxed">
+                    Founded on the principle that trust is the foundation of effective consulting, Acorn Benefits has served business owners, CFOs, and HR leaders with clarity, integrity, and unwavering advocacy.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <img src="https://static.showit.co/file/5qCm3-Nv6fgoVo4w7WFC2g/158319/acorn_signage.jpg" alt="Acorn Benefits signage" class="rounded-sm shadow-xl w-full object-cover">
+                </div>
+                <div>
+                    <h2 class="font-serif text-4xl font-semibold text-forest-900 mb-6">Our Story</h2>
+                    <p class="text-lg text-warm-700 leading-relaxed mb-6">
+                        Acorn Benefits was founded with a simple mission: to bring clarity and confidence to the complex world of employee benefits. After decades of experience on both the carrier and broker sides of the industry, we recognized a gap in the market for consulting that prioritized long-term partnership over transactional relationships.
+                    </p>
+                    <p class="text-lg text-warm-700 leading-relaxed mb-6">
+                        The acorn symbolizes our approach—small, steady investments in trust and expertise that grow into lasting security for your organization. Like the oak tree that grows from humble beginnings, we believe that sound benefits strategy starts with solid foundations and patient cultivation.
+                    </p>
+                    <p class="text-lg text-warm-700 leading-relaxed">
+                        Today, we serve businesses across the Pacific Northwest and beyond, bringing 60+ years of combined expertise to every client relationship.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values -->
+    <section class="py-24 bg-forest-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">Principles</span>
+                <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900">Our Values</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-10 rounded-sm shadow-sm">
+                    <i data-lucide="shield" class="w-10 h-10 text-forest-700 mb-6"></i>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Integrity</h3>
+                    <p class="text-warm-700 leading-relaxed">
+                        We provide transparent counsel, disclose all compensation, and place client interests above all else. No hidden agendas, no surprises.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-10 rounded-sm shadow-sm">
+                    <i data-lucide="graduation-cap" class="w-10 h-10 text-forest-700 mb-6"></i>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Expertise</h3>
+                    <p class="text-warm-700 leading-relaxed">
+                        Continuous learning keeps us ahead of regulatory changes, market trends, and emerging strategies. We bring deep knowledge to every engagement.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-10 rounded-sm shadow-sm">
+                    <i data-lucide="heart-handshake" class="w-10 h-10 text-forest-700 mb-6"></i>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-3">Partnership</h3>
+                    <p class="text-warm-700 leading-relaxed">
+                        We measure success by your outcomes, not our commissions. Our relationships extend for years because we remain present when you need us.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">Leadership</span>
+                <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900 mb-6">Meet the Team</h2>
+                <p class="text-xl text-warm-700 max-w-3xl mx-auto">
+                    Decades of combined experience on both sides of the benefits industry—carrier and consulting.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-48 h-48 mx-auto mb-6 rounded-sm overflow-hidden bg-warm-200">
+                        <img src="http://static.photos/people/400x400/11" alt="Team member" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-1">Margaret Chen</h3>
+                    <p class="text-forest-600 font-medium mb-3">Managing Principal</p>
+                    <p class="text-warm-700 text-sm leading-relaxed px-4">
+                        25 years in benefits consulting. Former carrier executive with deep expertise in plan design and underwriting.
+                    </p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-48 h-48 mx-auto mb-6 rounded-sm overflow-hidden bg-warm-200">
+                        <img src="https://static.showit.co/file/3eoUNnSwxaU0u38PqNnHAg/158319/terry_brophy.jpg" alt="Terry Brophy" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-1">Terry Brophy</h3>
+                    <p class="text-forest-600 font-medium mb-3">Senior Consultant</p>
+                    <p class="text-warm-700 text-sm leading-relaxed px-4">
+                        20 years specializing in renewal strategy and cost containment. Known for meticulous claims advocacy.
+                    </p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-48 h-48 mx-auto mb-6 rounded-sm overflow-hidden bg-warm-200">
+                        <img src="http://static.photos/people/400x400/33" alt="Team member" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="font-serif text-2xl font-semibold text-forest-900 mb-1">Sarah Williams</h3>
+                    <p class="text-forest-600 font-medium mb-3">Client Strategy Director</p>
+                    <p class="text-warm-700 text-sm leading-relaxed px-4">
+                        15 years building employer partnerships. Expert in employee education and engagement strategies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients -->
+    <section class="py-24 bg-warm-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-forest-600 uppercase tracking-widest text-sm font-medium mb-4 block">Who We Serve</span>
+                <h2 class="font-serif text-4xl lg:text-5xl font-semibold text-forest-900 mb-6">Industries & Clients</h2>
+                <p class="text-xl text-warm-700 max-w-3xl mx-auto">
+                    We specialize in mid-sized organizations with complex benefits needs and a desire for strategic partnership.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="p-6">
+                    <i data-lucide="factory" class="w-10 h-10 text-forest-700 mx-auto mb-4"></i>
+                    <h4 class="font-serif text-lg font-semibold text-forest-900">Manufacturing</h4>
+                </div>
+                <div class="p-6">
+                    <i data-lucide="cpu" class="w-10 h-10 text-forest-700 mx-auto mb-4"></i>
+                    <h4 class="font-serif text-lg font-semibold text-forest-900">Technology</h4>
+                </div>
+                <div class="p-6">
+                    <i data-lucide="stethoscope" class="w-10 h-10 text-forest-700 mx-auto mb-4"></i>
+                    <h4 class="font-serif text-lg font-semibold text-forest-900">Healthcare</h4>
+                </div>
+                <div class="p-6">
+                    <i data-lucide="graduation-cap" class="w-10 h-10 text-forest-700 mx-auto mb-4"></i>
+                    <h4 class="font-serif text-lg font-semibold text-forest-900">Education</h4>
+                </div>
+                <div class="p-6">
+                    <i data-lucide="building-2" class="w-10 h-10 text-forest-700 mx-auto mb-4"></i>
+                    <h4 class="font-serif text-lg font-semibold text-forest-900">Professional Services</h4>
+                </div>
+                <div class="p-6">
+                    <i data-lucide="shopping-bag" class="w-10 h-10 text-forest-700 mx-auto mb-4"></i>
+                    <h4 class="font-serif text-lg font-semibold text-forest-900">Retail</h4>
+                </div>
+                <div class="p-6">
+                    <i data-lucide="truck" class="w-10 h-10 text-forest-700 mx-auto mb-4"></i>
+                    <h4 class="font-serif text-lg font-semibold text-forest-900">Transportation</h4>
+                </div>
+                <div class="p-6">
+                    <i data-lucide="landmark" class="w-10 h-10 text-forest-700 mx-auto mb-4"></i>
+                    <h4 class="font-serif text-lg font-semibold text-forest-900">Non-Profit</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-24 bg-forest-800 text-center">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 class="font-serif text-4xl font-semibold text-white mb-6">Ready to work together?</h2>
+            <p class="text-xl text-forest-200 mb-10">Let's discuss how Acorn Benefits can bring clarity and confidence to your employee benefits strategy.</p>
+            <a href="contact.html" class="inline-flex items-center justify-center px-10 py-5 bg-white text-forest-900 font-medium text-lg rounded-sm hover:bg-warm-100 transition-colors">
+                Start the Conversation
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warm-900 text-warm-300 py-16">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
