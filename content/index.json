@@ -26,15 +26,15 @@
     "values": [
       {
         "title": "Clarity",
-        "desc": "Complex benefits data translated into actionable strategy. No jargon, no surprises."
-      },
-      {
-        "title": "Balance",
         "desc": "Complex benefits information simplified into actionable strategy."
       },
       {
-        "title": "Steadfastness",
-        "desc": "Consistent advocacy and support through every stage of the benefits lifecycle."
+        "title": "Balance",
+        "desc": "Meeting employee benefit needs and fiscal budgets. "
+      },
+      {
+        "title": "Reliable",
+        "desc": "Dependable advocacy and guidance at every stage of the benefits lifecycle."
       }
     ]
   },
