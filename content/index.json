@@ -61,7 +61,7 @@
     ]
   },
   "differentiator": {
-    "heading": "We don't disappear after renewal.",
+    "heading": "",
     "desc": "Unlike transactional brokers who focus solely on the sale, we embed ourselves in your operations. From open enrollment to claims resolution to mid-year strategy adjustments, we remain present, responsive, and invested in your success."
   },
   "process": {
@@ -78,14 +78,14 @@
       },
       {
         "title": "Partnership",
-        "desc": "Ongoing implementation support, employee communication, and continuous optimization."
+        "desc": "Expanding the Market Uncovered Significant Savings"
       }
     ]
   },
   "caseStudyTeaser": {
     "label": "Case Study",
-    "heading": "200-Employee Manufacturer Reduces Benefits Spend by 15% While Enhancing Coverage",
-    "desc": "Through strategic plan redesign and carrier negotiation, we helped a mid-sized manufacturing firm significantly reduce their benefits costs while actually improving coverage levels for their employees.",
+    "heading": "A 450-employee organization with a self-funded health plan faced a challenging renewal:",
+    "desc": "The company’s medical broker presented two alternative proposals from national insurers, both of which were uncompetitive, and recommended staying with the current third-party administrator (TPA).",
     "stat1Value": "15%",
     "stat1Label": "Cost Reduction",
     "stat2Value": "$240K",
