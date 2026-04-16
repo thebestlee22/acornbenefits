@@ -1,0 +1,363 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home Page"
+        name: "index"
+        file: "content/index.json"
+        format: json
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - label: "Credibility Stats"
+            name: "credibility"
+            widget: "object"
+            fields:
+              - {label: "Years Value", name: "yearsValue", widget: "string"}
+              - {label: "Years Label", name: "yearsLabel", widget: "string"}
+              - {label: "Years Description", name: "yearsDesc", widget: "text"}
+              - {label: "Perspective Label", name: "perspectiveLabel", widget: "string"}
+              - {label: "Perspective Description", name: "perspectiveDesc", widget: "text"}
+              - {label: "Claims Label", name: "claimsLabel", widget: "string"}
+              - {label: "Claims Description", name: "claimsDesc", widget: "text"}
+          - label: "Problem Section"
+            name: "problem"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Paragraph 1", name: "p1", widget: "text"}
+              - {label: "Paragraph 2", name: "p2", widget: "text"}
+              - {label: "Quote", name: "quote", widget: "string"}
+              - {label: "Quote Attribution", name: "quoteAttr", widget: "string"}
+          - label: "Value Section"
+            name: "valueSection"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - label: "Values"
+                name: "values"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "desc", widget: "text"}
+          - label: "Services Section"
+            name: "servicesSection"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - label: "Services"
+                name: "services"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "desc", widget: "text"}
+          - label: "Differentiator Section"
+            name: "differentiator"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+          - label: "Process Section"
+            name: "process"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "desc", widget: "text"}
+          - label: "Case Study Teaser"
+            name: "caseStudyTeaser"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Stat 1 Value", name: "stat1Value", widget: "string"}
+              - {label: "Stat 1 Label", name: "stat1Label", widget: "string"}
+              - {label: "Stat 2 Value", name: "stat2Value", widget: "string"}
+              - {label: "Stat 2 Label", name: "stat2Label", widget: "string"}
+              - {label: "Stat 3 Value", name: "stat3Value", widget: "string"}
+              - {label: "Stat 3 Label", name: "stat3Label", widget: "string"}
+          - label: "CTA Section"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Button Text", name: "btnText", widget: "string"}
+              - {label: "Disclaimer", name: "disclaimer", widget: "string"}
+
+      - label: "About Page"
+        name: "about"
+        file: "content/about.json"
+        format: json
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - label: "Story Section"
+            name: "story"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Paragraph 1", name: "p1", widget: "text"}
+              - {label: "Paragraph 2", name: "p2", widget: "text"}
+              - {label: "Paragraph 3", name: "p3", widget: "text"}
+          - label: "Values Section"
+            name: "values"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - label: "Values"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "desc", widget: "text"}
+          - label: "Team Section"
+            name: "team"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - label: "Members"
+                name: "members"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "desc", widget: "text"}
+          - label: "Clients Section"
+            name: "clients"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - label: "Industries"
+                name: "industries"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+          - label: "CTA Section"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Button Text", name: "btnText", widget: "string"}
+
+      - label: "Services Page"
+        name: "services"
+        file: "content/services.json"
+        format: json
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - label: "Features"
+                name: "features"
+                widget: "list"
+                field: {label: "Feature", name: "feature", widget: "string"}
+          - label: "CTA Section"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Button Text", name: "btnText", widget: "string"}
+
+      - label: "Case Studies Page"
+        name: "caseStudies"
+        file: "content/case-studies.json"
+        format: json
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - label: "Featured Case Study"
+            name: "featured"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Stat 1 Value", name: "stat1Value", widget: "string"}
+              - {label: "Stat 1 Label", name: "stat1Label", widget: "string"}
+              - {label: "Stat 2 Value", name: "stat2Value", widget: "string"}
+              - {label: "Stat 2 Label", name: "stat2Label", widget: "string"}
+              - {label: "Stat 3 Value", name: "stat3Value", widget: "string"}
+              - {label: "Stat 3 Label", name: "stat3Label", widget: "string"}
+              - label: "Strategies"
+                name: "strategies"
+                widget: "list"
+                field: {label: "Strategy", name: "strategy", widget: "string"}
+          - label: "Case Studies"
+            name: "studies"
+            widget: "list"
+            fields:
+              - {label: "Category", name: "category", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Stat 1 Value", name: "stat1Value", widget: "string"}
+              - {label: "Stat 1 Label", name: "stat1Label", widget: "string"}
+              - {label: "Stat 2 Value", name: "stat2Value", widget: "string"}
+              - {label: "Stat 2 Label", name: "stat2Label", widget: "string"}
+              - {label: "Testimonial", name: "testimonial", widget: "text"}
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - {label: "Quote", name: "quote", widget: "text"}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+          - label: "CTA Section"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Button Text", name: "btnText", widget: "string"}
+
+      - label: "Resources Page"
+        name: "resources"
+        file: "content/resources.json"
+        format: json
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - label: "Guides"
+            name: "guides"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Link Text", name: "linkText", widget: "string"}
+          - label: "Articles"
+            name: "articles"
+            widget: "list"
+            fields:
+              - {label: "Category", name: "category", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+          - label: "FAQ Section"
+            name: "faq"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - label: "Questions"
+                name: "questions"
+                widget: "list"
+                fields:
+                  - {label: "Question", name: "question", widget: "string"}
+                  - {label: "Answer", name: "answer", widget: "text"}
+          - label: "Newsletter Section"
+            name: "newsletter"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+          - label: "CTA Section"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Button Text", name: "btnText", widget: "string"}
+
+      - label: "Contact Page"
+        name: "contact"
+        file: "content/contact.json"
+        format: json
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - label: "Form Section"
+            name: "formSection"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Button Text", name: "btnText", widget: "string"}
+              - {label: "Privacy Note", name: "privacyNote", widget: "string"}
+          - label: "Contact Info"
+            name: "contactInfo"
+            widget: "object"
+            fields:
+              - {label: "Address Line 1", name: "address1", widget: "string"}
+              - {label: "Address Line 2", name: "address2", widget: "string"}
+              - {label: "Address Line 3", name: "address3", widget: "string"}
+              - {label: "Phone", name: "phone", widget: "string"}
+              - {label: "Hours", name: "hours", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Email Response Time", name: "emailResponseTime", widget: "string"}
+          - label: "What Happens Next"
+            name: "whatHappensNext"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                field: {label: "Step", name: "step", widget: "string"}
+          - label: "Service Area Section"
+            name: "serviceArea"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "HQ Label", name: "hqLabel", widget: "string"}
+              - {label: "HQ Value", name: "hqValue", widget: "string"}
+              - {label: "States Label", name: "statesLabel", widget: "string"}
+              - {label: "States Value", name: "statesValue", widget: "string"}
