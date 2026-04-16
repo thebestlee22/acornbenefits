@@ -1,0 +1,95 @@
+{
+  "hero": {
+    "label": "Knowledge Center",
+    "title": "Resources & Insights",
+    "subtitle": "Practical guides, industry insights, and tools to help you navigate the complex world of employee benefits with confidence."
+  },
+  "guides": [
+    {
+      "title": "2024 Benefits Trends Report",
+      "desc": "Comprehensive analysis of emerging trends in employee benefits, including healthcare costs, voluntary benefits adoption, and wellness program evolution.",
+      "linkText": "Download PDF"
+    },
+    {
+      "title": "Self-Funding Transition Guide",
+      "desc": "A step-by-step roadmap for organizations considering the move from fully-insured to self-funded health plans. Risk assessment, timeline, and best practices included.",
+      "linkText": "Download PDF"
+    },
+    {
+      "title": "Open Enrollment Toolkit",
+      "desc": "Templates, checklists, and communication strategies to maximize employee engagement and understanding during your next open enrollment period.",
+      "linkText": "Download PDF"
+    }
+  ],
+  "articles": [
+    {
+      "category": "Strategy",
+      "title": "Navigating the 2024 Healthcare Cost Landscape",
+      "desc": "With medical trend rates projected to rise 6-8%, organizations need proactive strategies to manage costs without shifting burden to employees."
+    },
+    {
+      "category": "Technology",
+      "title": "The Rise of Benefits Administration Platforms",
+      "desc": "How modern HR technology is streamlining enrollment, improving data accuracy, and enhancing the employee experience."
+    },
+    {
+      "category": "Wellness",
+      "title": "Building Mental Health Benefits That Actually Work",
+      "desc": "Moving beyond EAP checkboxes to comprehensive mental health strategies that support employee wellbeing and productivity."
+    },
+    {
+      "category": "Compliance",
+      "title": "ACA Reporting Requirements: What Employers Need to Know",
+      "desc": "A practical guide to 1094-C and 1095-C reporting, including common mistakes and how to avoid penalties."
+    },
+    {
+      "category": "Trends",
+      "title": "Benefits for a Hybrid Workforce",
+      "desc": "How to structure benefits programs that serve both in-office and remote employees equitably in the new world of work."
+    },
+    {
+      "category": "Retirement",
+      "title": "Maximizing 401(k) Engagement Through Design",
+      "desc": "Plan features like auto-enrollment, escalation, and matching structures that drive participation and retirement readiness."
+    }
+  ],
+  "faq": {
+    "label": "Common Questions",
+    "heading": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "How often should we review our benefits strategy?",
+        "answer": "We recommend quarterly reviews of utilization data and claims experience, with a comprehensive strategy assessment annually before renewal. However, significant business changes—mergers, acquisitions, workforce expansions, or regulatory shifts—should trigger immediate strategy reviews."
+      },
+      {
+        "question": "What's the difference between fully-insured and self-funded plans?",
+        "answer": "Fully-insured plans involve paying a fixed premium to an insurance carrier who assumes all risk. Self-funded plans involve the employer paying claims directly, typically with stop-loss insurance to protect against catastrophic costs. Self-funding offers greater transparency, potential cost savings, and plan design flexibility, but requires more administrative oversight. We help clients determine which model fits their risk tolerance and organizational capabilities."
+      },
+      {
+        "question": "How do you charge for your services?",
+        "answer": "Acorn Benefits operates on a transparent compensation model. We receive standard commissions from carriers for fully-insured plans, which are built into premiums regardless of whether you use a broker. For self-funded plans and consulting projects, we may charge flat fees or per-employee-per-month rates. All compensation is disclosed upfront—no hidden fees or surprise charges."
+      },
+      {
+        "question": "What makes Acorn different from other brokers?",
+        "answer": "Three key differences define our approach: First, we maintain deep expertise on both the carrier and consulting sides of the industry, giving us unique insight into negotiations. Second, we provide year-round claims advocacy—when your employees have issues, we're actively involved in resolution. Third, we prioritize long-term strategy over transactional relationships. We're not interested in being your broker for one renewal cycle; we're invested in your organization's long-term success."
+      },
+      {
+        "question": "How quickly can you resolve claims issues?",
+        "answer": "Simple claims questions can often be resolved within 24-48 hours. Complex appeals or disputes requiring carrier negotiation typically take 5-10 business days, though we escalate urgent medical situations immediately. Our deep relationships with carrier claims departments and thorough understanding of coverage contracts allow us to navigate resolution faster than individual employees or HR teams working alone."
+      },
+      {
+        "question": "Do you work with small businesses or only large employers?",
+        "answer": "We specialize in mid-sized organizations—typically 50 to 500 employees—where benefits complexity has increased but internal HR resources may be limited. However, we work with smaller growing businesses and larger enterprises on a case-by-case basis. The key factor isn't company size, but the organization's desire for strategic partnership and proactive benefits management."
+      }
+    ]
+  },
+  "newsletter": {
+    "heading": "Stay Informed",
+    "desc": "Subscribe to our monthly newsletter for regulatory updates, industry insights, and practical benefits management tips delivered to your inbox."
+  },
+  "cta": {
+    "heading": "Need personalized guidance?",
+    "desc": "These resources are just the beginning. Let's discuss your specific situation and how Acorn Benefits can help you achieve your goals.",
+    "btnText": "Request a Consultation"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "hero": {
+    "label": "About Us",
+    "title": "Steady guidance for complex decisions.",
+    "subtitle": "Founded on the principle that trust is the foundation of effective consulting, Acorn Benefits has served business owners, CFOs, and HR leaders with clarity, integrity, and unwavering advocacy."
+  },
+  "story": {
+    "heading": "Our Story",
+    "p1": "Acorn Benefits was founded with a simple mission: to bring clarity and confidence to the complex world of employee benefits. After decades of experience on both the carrier and broker sides of the industry, we recognized a gap in the market for consulting that prioritized long-term partnership over transactional relationships.",
+    "p2": "The acorn symbolizes our approach—small, steady investments in trust and expertise that grow into lasting security for your organization. Like the oak tree that grows from humble beginnings, we believe that sound benefits strategy starts with solid foundations and patient cultivation.",
+    "p3": "Today, we serve businesses across the Pacific Northwest and beyond, bringing 60+ years of combined expertise to every client relationship."
+  },
+  "values": {
+    "label": "Principles",
+    "heading": "Our Values",
+    "items": [
+      {
+        "title": "Integrity",
+        "desc": "We provide transparent counsel, disclose all compensation, and place client interests above all else. No hidden agendas, no surprises."
+      },
+      {
+        "title": "Expertise",
+        "desc": "Continuous learning keeps us ahead of regulatory changes, market trends, and emerging strategies. We bring deep knowledge to every engagement."
+      },
+      {
+        "title": "Partnership",
+        "desc": "We measure success by your outcomes, not our commissions. Our relationships extend for years because we remain present when you need us."
+      }
+    ]
+  },
+  "team": {
+    "label": "Leadership",
+    "heading": "Meet the Team",
+    "desc": "Decades of combined experience on both sides of the benefits industry—carrier and consulting.",
+    "members": [
+      {
+        "name": "Margaret Chen",
+        "title": "Managing Principal",
+        "desc": "25 years in benefits consulting. Former carrier executive with deep expertise in plan design and underwriting."
+      },
+      {
+        "name": "Terry Brophy",
+        "title": "Senior Consultant",
+        "desc": "20 years specializing in renewal strategy and cost containment. Known for meticulous claims advocacy."
+      },
+      {
+        "name": "Sarah Williams",
+        "title": "Client Strategy Director",
+        "desc": "15 years building employer partnerships. Expert in employee education and engagement strategies."
+      }
+    ]
+  },
+  "clients": {
+    "label": "Who We Serve",
+    "heading": "Industries & Clients",
+    "desc": "We specialize in mid-sized organizations with complex benefits needs and a desire for strategic partnership.",
+    "industries": [
+      { "name": "Manufacturing" },
+      { "name": "Technology" },
+      { "name": "Healthcare" },
+      { "name": "Education" },
+      { "name": "Professional Services" },
+      { "name": "Retail" },
+      { "name": "Transportation" },
+      { "name": "Non-Profit" }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to work together?",
+    "desc": "Let's discuss how Acorn Benefits can bring clarity and confidence to your employee benefits strategy.",
+    "btnText": "Start the Conversation"
+  }
+}

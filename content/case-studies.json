@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "label": "Results",
+    "title": "Client Success Stories",
+    "subtitle": "Real outcomes for real businesses. Explore how we've helped organizations reduce costs, improve coverage, and simplify their benefits strategy."
+  },
+  "featured": {
+    "label": "Featured Case Study",
+    "heading": "200-Employee Manufacturer Reduces Benefits Spend by 15% While Enhancing Coverage",
+    "desc": "A mid-sized manufacturing firm faced rising premiums and employee dissatisfaction with coverage. Through strategic plan redesign and carrier negotiation, we achieved significant cost savings while actually improving benefits.",
+    "stat1Value": "15%",
+    "stat1Label": "Cost Reduction",
+    "stat2Value": "$240K",
+    "stat2Label": "Annual Savings",
+    "stat3Value": "94%",
+    "stat3Label": "Employee Satisfaction",
+    "strategies": [
+      "Shifted to high-deductible health plan with optimized HSA contributions",
+      "Implemented reference-based pricing for common procedures",
+      "Added telehealth and virtual care options to reduce emergency visits",
+      "Renegotiated pharmacy benefits manager contract"
+    ]
+  },
+  "studies": [
+    {
+      "category": "Technology",
+      "title": "Tech Startup Streamlines Benefits for Rapid Growth",
+      "desc": "A 75-employee SaaS company needed scalable benefits infrastructure to support 40% annual growth. We implemented a flexible benefits platform and automated administration.",
+      "stat1Value": "60%",
+      "stat1Label": "Admin Time Saved",
+      "stat2Value": "40%",
+      "stat2Label": "Growth Supported",
+      "testimonial": "Acorn helped us build a benefits program that scales with our growth without adding HR overhead."
+    },
+    {
+      "category": "Healthcare",
+      "title": "Medical Practice Resolves Complex Claims Issues",
+      "desc": "A 50-employee specialty clinic faced recurring claims denials and employee frustration. Our advocacy team resolved 90% of outstanding issues within 60 days.",
+      "stat1Value": "90%",
+      "stat1Label": "Resolution Rate",
+      "stat2Value": "60 Days",
+      "stat2Label": "Time to Resolve",
+      "testimonial": "Finally, someone who actually picks up the phone and fights for our employees."
+    },
+    {
+      "category": "Education",
+      "title": "Private School Balances Budget Constraints with Quality Coverage",
+      "desc": "A K-12 institution with 120 employees needed to freeze costs for three years while maintaining competitive benefits to retain teachers.",
+      "stat1Value": "0%",
+      "stat1Label": "Cost Increase",
+      "stat2Value": "3 Years",
+      "stat2Label": "Rate Freeze",
+      "testimonial": "We avoided layoffs and kept our benefits competitive thanks to Acorn's creative strategy."
+    },
+    {
+      "category": "Professional Services",
+      "title": "Law Firm Implements Self-Funding with Confidence",
+      "desc": "A 85-employee firm transitioned from fully-insured to self-funded model, gaining transparency and saving $180K in the first year.",
+      "stat1Value": "$180K",
+      "stat1Label": "First Year Savings",
+      "stat2Value": "100%",
+      "stat2Label": "Cost Transparency",
+      "testimonial": "Moving to self-funding felt risky, but Acorn guided us through every step. Best decision we made."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Acorn doesn't just shop your rates—they actually understand your business and design strategies that work. Our employees are happier and we're spending less.",
+      "name": "Jennifer Walsh",
+      "title": "CFO, Manufacturing Company"
+    },
+    {
+      "quote": "When my husband had a complex medical claim denied, Acorn stepped in and got it resolved within a week. That's the kind of advocacy you can't put a price on.",
+      "name": "Maria Rodriguez",
+      "title": "HR Director, Tech Firm"
+    },
+    {
+      "quote": "We interviewed five brokers. Acorn was the only one that asked about our business goals before talking about insurance products. Three years later, they've never stopped delivering value.",
+      "name": "David Chen",
+      "title": "CEO, Professional Services Firm"
+    }
+  ],
+  "cta": {
+    "heading": "Ready to write your success story?",
+    "desc": "Let's discuss how Acorn Benefits can deliver measurable results for your organization. Start with a complimentary Benefits Review.",
+    "btnText": "Request a Benefits Review"
+  }
+}

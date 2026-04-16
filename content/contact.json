@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "label": "Get in Touch",
+    "title": "Start the Conversation",
+    "subtitle": "Ready to bring clarity to your benefits strategy? Schedule a complimentary review or reach out with any questions."
+  },
+  "formSection": {
+    "heading": "Request a Benefits Review",
+    "desc": "Complimentary analysis of your current program with actionable recommendations delivered within 48 hours.",
+    "btnText": "Submit Request",
+    "privacyNote": "We respect your privacy. Your information will never be shared with third parties."
+  },
+  "contactInfo": {
+    "address1": "1234 Southwest Boulevard",
+    "address2": "Suite 400",
+    "address3": "Portland, OR 97205",
+    "phone": "(503) 555-0142",
+    "hours": "Mon-Fri, 8am-5pm PT",
+    "email": "consult@acornbenefits.com",
+    "emailResponseTime": "Response within 24 hours"
+  },
+  "whatHappensNext": {
+    "heading": "What happens next?",
+    "steps": [
+      "We review your submission within 24 hours",
+      "Schedule a brief discovery call to discuss your needs",
+      "Receive your complimentary Benefits Review within 48 hours"
+    ]
+  },
+  "serviceArea": {
+    "heading": "Serving the Pacific Northwest and Beyond",
+    "desc": "While our roots are in Portland, we serve clients across the Pacific Northwest and throughout the United States. Modern collaboration tools allow us to provide the same high-touch service whether you're down the street or across the country.",
+    "hqLabel": "Headquarters",
+    "hqValue": "Oregon",
+    "statesLabel": "States Served",
+    "statesValue": "12+"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "title": "With Trust Comes\nPeace of Mind.",
+    "subtitle": "Acorn Benefits delivers clarity in complexity, unwavering advocacy during claims, and steady guidance for the long-term care of your employee benefits program."
+  },
+  "credibility": {
+    "yearsValue": "60+",
+    "yearsLabel": "Years Experience",
+    "yearsDesc": "Combined expertise navigating the evolving benefits landscape",
+    "perspectiveLabel": "Unique Perspective",
+    "perspectiveDesc": "Unique insight from both carrier and broker sides of the industry",
+    "claimsLabel": "Claims Advocacy",
+    "claimsDesc": "Dedicated support when your employees need it most"
+  },
+  "problem": {
+    "heading": "Benefits shouldn't feel overwhelming.",
+    "p1": "For many business leaders, employee benefits represent one of the largest line items in the budget—yet the complexity often obscures the value. Rising costs, changing regulations, and administrative burden create friction where there should be clarity.",
+    "p2": "Without strategic guidance, organizations find themselves reacting to renewals rather than proactively designing programs that attract talent and control costs.",
+    "quote": "We were drowning in renewal spreadsheets until Acorn brought us clarity.",
+    "quoteAttr": "— CFO, Manufacturing Firm"
+  },
+  "valueSection": {
+    "label": "Our Approach",
+    "heading": "Benefits guidance built on trust.",
+    "desc": "Acorn Benefits maximizes value for your employees—while minimizing cost for your business. We believe that transparent communication and steady advocacy create the foundation for lasting partnerships.",
+    "values": [
+      {
+        "title": "Clarity",
+        "desc": "Complex benefits data translated into actionable strategy. No jargon, no surprises."
+      },
+      {
+        "title": "Balance",
+        "desc": "Competitive employee value proposition meets fiscal responsibility."
+      },
+      {
+        "title": "Steadfastness",
+        "desc": "Consistent advocacy and support through every stage of the benefits lifecycle."
+      }
+    ]
+  },
+  "servicesSection": {
+    "label": "Expertise",
+    "heading": "Comprehensive Services",
+    "services": [
+      {
+        "title": "Plan Design",
+        "desc": "Strategic benefits architecture tailored to your workforce demographics, budget parameters, and competitive landscape."
+      },
+      {
+        "title": "Renewal Strategy",
+        "desc": "Data-driven negotiation and market analysis to optimize your renewal outcomes and control trend."
+      },
+      {
+        "title": "Claims Advocacy",
+        "desc": "Dedicated support navigating complex claims issues, ensuring your employees receive the benefits they've earned."
+      },
+      {
+        "title": "Ongoing Partnership",
+        "desc": "Year-round consultation, employee education, and proactive strategy adjustments as your business evolves."
+      }
+    ]
+  },
+  "differentiator": {
+    "heading": "We don't disappear after renewal.",
+    "desc": "Unlike transactional brokers who focus solely on the sale, we embed ourselves in your operations. From open enrollment to claims resolution to mid-year strategy adjustments, we remain present, responsive, and invested in your success."
+  },
+  "process": {
+    "label": "How We Work",
+    "heading": "A Simple, Proven Process",
+    "steps": [
+      {
+        "title": "Assessment",
+        "desc": "Deep dive into your current plans, utilization data, employee demographics, and organizational goals."
+      },
+      {
+        "title": "Strategy",
+        "desc": "Customized recommendations balancing cost containment with competitive employee value."
+      },
+      {
+        "title": "Partnership",
+        "desc": "Ongoing implementation support, employee communication, and continuous optimization."
+      }
+    ]
+  },
+  "caseStudyTeaser": {
+    "label": "Case Study",
+    "heading": "200-Employee Manufacturer Reduces Benefits Spend by 15% While Enhancing Coverage",
+    "desc": "Through strategic plan redesign and carrier negotiation, we helped a mid-sized manufacturing firm significantly reduce their benefits costs while actually improving coverage levels for their employees.",
+    "stat1Value": "15%",
+    "stat1Label": "Cost Reduction",
+    "stat2Value": "$240K",
+    "stat2Label": "Annual Savings",
+    "stat3Value": "94%",
+    "stat3Label": "Employee Satisfaction"
+  },
+  "cta": {
+    "heading": "Ready for clarity in your benefits strategy?",
+    "desc": "Schedule a complimentary Benefits Review. We'll analyze your current program and identify immediate opportunities for cost savings and value enhancement.",
+    "btnText": "Request a Benefits Review",
+    "disclaimer": "No obligation. Confidential consultation."
+  }
+}

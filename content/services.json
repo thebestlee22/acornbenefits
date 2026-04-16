@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "label": "Expertise",
+    "title": "Our Services",
+    "subtitle": "Comprehensive benefits consulting designed to reduce costs, mitigate risk, and enhance the employee experience."
+  },
+  "services": [
+    {
+      "title": "Plan Design",
+      "desc": "Strategic benefits architecture that aligns with your business objectives and workforce needs. We analyze utilization data, demographic trends, and competitive benchmarks to design plans that attract and retain talent while controlling costs.",
+      "features": [
+        "Medical, dental, and vision plan optimization",
+        "HDHP and HSA strategy",
+        "Voluntary benefits integration",
+        "Wellness program design"
+      ]
+    },
+    {
+      "title": "Renewal Strategy",
+      "desc": "Navigate the renewal process with confidence. Our data-driven approach and market leverage ensure you receive competitive rates and optimal terms, often identifying significant savings opportunities hidden in the details.",
+      "features": [
+        "Claims analysis and trend forecasting",
+        "Carrier negotiation and benchmarking",
+        "Alternative funding evaluation",
+        "Pharmacy benefit management review"
+      ]
+    },
+    {
+      "title": "Claims Advocacy",
+      "desc": "When complex medical claims arise, your employees need an advocate who understands the system. We provide hands-on support to resolve disputes, clarify coverage, and ensure your team receives the benefits they deserve.",
+      "features": [
+        "Complex claim resolution",
+        "Appeals management",
+        "Employee education and support",
+        "Coordination with carriers and providers"
+      ]
+    },
+    {
+      "title": "Ongoing Partnership",
+      "desc": "Our relationship extends far beyond renewal season. We serve as your year-round benefits department, providing strategic guidance, employee education, and proactive adjustments as your business evolves.",
+      "features": [
+        "Quarterly business reviews",
+        "Employee enrollment and education",
+        "Compliance monitoring and updates",
+        "HR team training and support"
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Not sure which services you need?",
+    "desc": "Start with a complimentary Benefits Review. We'll assess your current situation and recommend a tailored approach.",
+    "btnText": "Schedule Your Review"
+  }
+}
