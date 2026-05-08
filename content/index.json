@@ -4,7 +4,7 @@
     "subtitle": "Acorn Benefits delivers clarity in complexity, unwavering advocacy and steady guidance for the long-term care of your employee benefits program."
   },
   "credibility": {
-    "yearsValue": "60+",
+    "yearsValue": "40+",
     "yearsLabel": "Years Experience",
     "yearsDesc": "Combined expertise navigating the evolving benefits landscape",
     "perspectiveLabel": "Unique Perspective",
@@ -43,34 +43,34 @@
     "heading": "Comprehensive Services",
     "services": [
       {
-        "title": "Plan Design",
-        "desc": "Strategic benefits architecture tailored to your workforce demographics, budget parameters, and competitive landscape."
+        "title": "Comprehensive Plan Design",
+        "desc": "Strategically crafted benefit plans tailored to your organization’s goals, workforce needs, and long-term cost management strategy."
       },
       {
-        "title": "Renewal Strategy",
-        "desc": "Data-driven negotiation and market analysis to optimize your renewal outcomes and control trend."
+        "title": "Renewal Analysis and Strategy",
+        "desc": "In-depth evaluation of renewal options, market insight and leveraging data to control costs and secure the most competitive outcomes."
       },
       {
         "title": "Claims Advocacy",
-        "desc": "Dedicated support navigating complex claims issues, ensuring your employees receive the benefits they've earned."
+        "desc": "Expert, personalized support to navigate complex claims, ensuring employees receive the coverage they deserve while reducing administrative burden for your team."
       },
       {
-        "title": "Ongoing Partnership",
-        "desc": "Year-round consultation, employee education, and proactive strategy adjustments as your business evolves."
+        "title": "Regulatory Guidance and Compliance",
+        "desc": "As regulations evolve, Acorn Benefits ensures you stay compliant and current with federal and state requirements."
       }
     ]
   },
   "differentiator": {
     "heading": "",
-    "desc": "Unlike transactional brokers who focus solely on the sale, we embed ourselves in your operations. From open enrollment to claims resolution to mid-year strategy adjustments, we remain present, responsive, and invested in your success."
+    "desc": "Ongoing Advisory. Everyday Service. From Open enrollment to claims resolution and strategy adjustments, we stay responsive and focused  on your success. Expanding the market uncovered significant savings."
   },
   "process": {
     "label": "How We Work",
-    "heading": "A Simple, Proven Process",
+    "heading": "A Simple Strategic Proven Process",
     "steps": [
       {
         "title": "Assessment",
-        "desc": "Deep dive into your current plans, utilization data, employee demographics, and organizational goals."
+        "desc": "Strategic benefits architecture aligned with your business objectives and workforce needs. We evaluate market benchmarks, workforce demographics, and plan design strategies to create competitive, cost-effective benefits programs that help attract and retain top talent."
       },
       {
         "title": "Strategy",
@@ -78,17 +78,17 @@
       },
       {
         "title": "Partnership",
-        "desc": "Expanding the Market Uncovered Significant Savings"
+        "desc": "A streamlined implementation process, paired with ongoing employee communication and continuous benefits optimization."
       }
     ]
   },
   "caseStudyTeaser": {
     "label": "Case Study",
-    "heading": "A 450-employee organization with a self-funded health plan faced a challenging renewal:",
-    "desc": "The company’s medical broker presented two alternative proposals from national insurers, both of which were uncompetitive, and recommended staying with the current third-party administrator (TPA).",
-    "stat1Value": "15%",
+    "heading": "A professional medical practice reduced premium costs by 50% while enhancing disability benefits for both physicians and staff.",
+    "desc": "Through strategic plan redesign and carrier negotiations, this medical practice improved disability benefits for physicians and staff while achieving a premium cost reduction of over 50%.",
+    "stat1Value": "50%",
     "stat1Label": "Cost Reduction",
-    "stat2Value": "$240K",
+    "stat2Value": "$129K",
     "stat2Label": "Annual Savings",
     "stat3Value": "94%",
     "stat3Label": "Employee Satisfaction"
