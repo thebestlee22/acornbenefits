@@ -1,12 +1,12 @@
 {
   "hero": {
     "label": "Expertise",
-    "title": "Our Services",
+    "title": "Services Beyond",
     "subtitle": "Comprehensive benefits consulting designed to reduce costs, mitigate risk, and enhance the employee experience."
   },
   "services": [
     {
-      "title": "Plan Design",
+      "title": "Comprehensive Plan design",
       "desc": "Strategic benefits architecture that aligns with your business objectives and workforce needs. We analyze utilization data, demographic trends, and competitive benchmarks to design plans that attract and retain talent while controlling costs.",
       "features": [
         "Medical, dental, and vision plan optimization",
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "title": "Renewal Strategy",
+      "title": "Renewal Analysis and Strategy",
       "desc": "Navigate the renewal process with confidence. Our data-driven approach and market leverage ensure you receive competitive rates and optimal terms, often identifying significant savings opportunities hidden in the details.",
       "features": [
         "Claims analysis and trend forecasting",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "title": "Ongoing Partnership",
+      "title": "Regulatory Guidance and Compliance",
       "desc": "Our relationship extends far beyond renewal season. We serve as your year-round benefits department, providing strategic guidance, employee education, and proactive adjustments as your business evolves.",
       "features": [
         "Quarterly business reviews",
