@@ -30,23 +30,13 @@
   },
   "team": {
     "label": "Leadership",
-    "heading": "Meet the Team",
+    "heading": "Meet the Founder",
     "desc": "Decades of combined experience on both sides of the benefits industry—carrier and consulting.",
     "members": [
-      {
-        "name": "Margaret Chen",
-        "title": "Managing Principal",
-        "desc": "25 years in benefits consulting. Former carrier executive with deep expertise in plan design and underwriting."
-      },
       {
         "name": "Terry Brophy",
         "title": "Senior Consultant",
         "desc": "20 years specializing in renewal strategy and cost containment. Known for meticulous claims advocacy."
-      },
-      {
-        "name": "Sarah Williams",
-        "title": "Client Strategy Director",
-        "desc": "15 years building employer partnerships. Expert in employee education and engagement strategies."
       }
     ]
   },
